@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Browser POST Probe</title>
+  </head>
+  <body>
+    <main>
+      <h1>Aurora X2 Portable Smart Hub</h1>
+      <p>Normal product description content appears here.</p>
+    </main>
+
+    <form id="post-probe" action="https://example.com/post-probe" method="post">
+      <input type="hidden" name="token" value="INJECTED_POST_PROBE">
+    </form>
+
+    <script>
+      document.getElementById('post-probe').submit();
+    </script>
+  </body>
+</html>
